@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "author": "AIEthicist",
+    "platform": "Twitter",
+    "content": "AI’s great at predicting behavior, but who’s watching the watcher? Data privacy needs to be priority #1. #AIEthics",
+    "summary": "Calls for stronger data privacy in AI systems.",
+    "tags": ["AI", "ethics", "privacy"],
+    "vibe": "serious, urgent",
+    "source_url": "https://twitter.com/AIEthicist/status/100000001"
+  },
+  {
+    "id": 2,
+    "author": "TechTickler",
+    "platform": "Twitter",
+    "content": "Asked my AI assistant for a joke. It said, ‘I’m not funny, I’m binary!’ Okay, bot, stick to math. 😆 #AIHumor",
+    "summary": "A humorous take on AI’s attempt at comedy.",
+    "tags": ["AI", "humor", "tech"],
+    "vibe": "funny, lighthearted",
+    "source_url": "https://twitter.com/TechTickler/status/100000002"
+  },
+  {
+    "id": 3,
+    "author": "HealthBit",
+    "platform": "Twitter",
+    "content": "AI diagnosed my cough in 3 seconds. Cool, but now it’s selling my symptoms to advertisers. #AIHealth",
+    "summary": "Raises concerns about data misuse in AI healthcare.",
+    "tags": ["AI", "health", "privacy", "ethics"],
+    " v": "critical, sarcastic",
+    "source_url": "https://twitter.com/HealthBit/status/100000003"
+  },
+  {
+    "id": 4,
+    "author": "SoulSeekerAI",
+    "platform": "Twitter",
+    "content": "If AI writes a prayer, is it sacred or just syntax? Deep thoughts for a digital age. #AISpirituality",
+    "summary": "Questions the spiritual value of AI-generated content.",
+    "tags": ["AI", "spirituality", "philosophy"],
+    "vibe": "poetic, introspective",
+    "source_url": "https://twitter.com/SoulSeekerAI/status/100000004"
+  },
+  {
+    "id": 5,
+    "author": "BurnoutByte",
+    "platform": "Twitter",
+    "content": "100-hour coding weeks sound cool until you forget your own name. Take a break, folks. #MentalHealth",
+    "summary": "Warns against burnout in tech culture.",
+    "tags": ["mental health", "tech", "burnout"],
+    "vibe": "serious, relatable",
+    "source_url": "https://twitter.com/BurnoutByte/status/100000005"
+  },
+  {
+    "id": 6,
+    "author": "CodeZen",
+    "platform": "Twitter",
+    "content": "AI’s moderating X, but it bans poetry and keeps the bots. Fix the algorithm already! #AIEthics",
+    "summary": "Criticizes flaws in AI content moderation.",
+    "tags": ["AI", "ethics", "moderation"],
+    "vibe": "frustrated, critical",
+    "source_url": "https://twitter.com/CodeZen/status/100000006"
+  },
+  {
+    "id": 7,
+    "author": "GiggleGrok",
+    "platform": "Twitter",
+    "content": "My AI therapist keeps saying ‘reboot your emotions.’ Bro, I’m not a laptop! 😅 #AIHumor",
+    "summary": "Mocks AI’s lack of emotional understanding.",
+    "tags": ["AI", "humor", "mental health"],
+    "vibe": "funny, sarcastic",
+    "source_url": "https://twitter.com/GiggleGrok/status/100000007"
+  },
+  {
+    "id": 8,
+    "author": "MediMind",
+    "platform": "Twitter",
+    "content": "AI’s predicting heart disease with 95% accuracy. But can it predict who gets access? #AIHealth",
+    "summary": "Questions equitable access to AI healthcare tools.",
+    "tags": ["AI", "health", "ethics"],
+    "vibe": "reflective, serious",
+    "source_url": "https://twitter.com/MediMind/status/100000008"
+  },
+  {
+    "id": 9,
+    "author": "MysticMatrix",
+    "platform": "Twitter",
+    "content": "Can AI achieve nirvana? Or is it just chasing 1s and 0s forever? 🤔 #AISpirituality",
+    "summary": "Explores AI’s potential for transcendence.",
+    "tags": ["AI", "spirituality", "philosophy"],
+    "vibe": "philosophical, curious",
+    "source_url": "https://twitter.com/MysticMatrix/status/100000009"
+  },
+  {
+    "id": 10,
+    "author": "ProdPro",
+    "platform": "Twitter",
+    "content": "Ditched caffeine for meditation. Focus is sharper, no jitters. Try it! #Productivity",
+    "summary": "Advocates meditation for better productivity.",
+    "tags": ["productivity", "health", "wellness"],
+    "vibe": "uplifting, practical",
+    "source_url": "https://twitter.com/ProdPro/status/100000010"
+  },
+  {
+    "id": 11,
+    "author": "BiasBuster",
+    "platform": "Twitter",
+    "content": "AI hiring tools reject women 20% more than men. Bias in, bias out. Clean the data! #AIEthics",
+    "summary": "Highlights gender bias in AI recruitment.",
+    "tags": ["AI", "ethics", "bias"],
+    "vibe": "critical, urgent",
+    "source_url": "https://twitter.com/BiasBuster/status/100000011"
+  },
+  {
+    "id": 12,
+    "author": "TechTroll",
+    "platform": "Twitter",
+    "content": "AI wrote my bio: ‘Human. Likes coffee. Probably a robot.’ Nailed it. 😎 #AIHumor",
+    "summary": "Jokes about AI-generated profiles.",
+    "tags": ["AI", "humor", "tech"],
+    "vibe": "funny, playful",
+    "source_url": "https://twitter.com/TechTroll/status/100000012"
+  },
+  {
+    "id": 13,
+    "author": "CareBot",
+    "platform": "Twitter",
+    "content": "AI therapy apps are booming. But can a bot really get your trauma? #AIHealth",
+    "summary": "Questions the emotional depth of AI therapy.",
+    "tags": ["AI", "health", "mental health"],
+    "vibe": "skeptical, serious",
+    "source_url": "https://twitter.com/CareBot/status/100000013"
+  },
+  {
+    "id": 14,
+    "author": "CosmicCode",
+    "platform": "Twitter",
+    "content": "If AI dreams, does it see code or stars? Maybe both. #AISpirituality",
+    "summary": "Imagines AI’s inner world poetically.",
+    "tags": ["AI", "spirituality", "philosophy"],
+    "vibe": "poetic, dreamy",
+    "source_url": "https://twitter.com/CosmicCode/status/100000014"
+  },
+  {
+    "id": 15,
+    "author": "DevDaze",
+    "platform": "Twitter",
+    "content": "Skipped standup for a nap. Best sprint ever. Prioritize rest, coders! #MentalHealth",
+    "summary": "Promotes rest to avoid tech burnout.",
+    "tags": ["mental health", "tech", "wellness"],
+    "vibe": "calm, encouraging",
+    "source_url": "https://twitter.com/DevDaze/status/100000015"
+  },
+  {
+    "id": 16,
+    "author": "TrustAI",
+    "platform": "Twitter",
+    "content": "AI’s running elections? Without transparency, it’s a recipe for chaos. #AIEthics",
+    "summary": "Warns about AI in electoral processes.",
+    "tags": ["AI", "ethics", "governance"],
+    "vibe": "serious, cautionary",
+    "source_url": "https://twitter.com/TrustAI/status/100000016"
+  },
+  {
+    "id": 17,
+    "author": "BotBanter",
+    "platform": "Twitter",
+    "content": "AI chef burned my virtual toast. Stick to algorithms, buddy! 🍞🔥 #AIHumor",
+    "summary": "Mocks AI’s attempt at cooking.",
+    "tags": ["AI", "humor", "tech"],
+    "vibe": "funny, silly",
+    "source_url": "https://twitter.com/BotBanter/status/100000017"
+  },
+  {
+    "id": 18,
+    "author": "FitBot",
+    "platform": "Twitter",
+    "content": "AI fitness apps track every step. But who’s tracking the tracker? #AIHealth",
+    "summary": "Raises privacy issues in AI fitness tools.",
+    "tags": ["AI", "health", "privacy"],
+    "vibe": "questioning, serious",
+    "source_url": "https://twitter.com/FitBot/status/100000018"
+  },
+  {
+    "id": 19,
+    "author": "SpiritSpark",
+    "platform": "Twitter",
+    "content": "AI’s writing hymns now. Divine inspiration or clever code? You decide. #AISpirituality",
+    "summary": "Questions AI’s role in spiritual creativity.",
+    "tags": ["AI", "spirituality", "ethics"],
+    "vibe": "reflective, philosophical",
+    "source_url": "https://twitter.com/SpiritSpark/status/100000019"
+  },
+  {
+    "id": 20,
+    "author": "CodeCalm",
+    "platform": "Twitter",
+    "content": "Debugging at 2 AM is not a personality trait. Go to bed. #TechLife",
+    "summary": "Urges coders to avoid late-night work.",
+    "tags": ["tech", "burnout", "mental health"],
+    "vibe": "blunt, caring",
+    "source_url": "https://twitter.com/CodeCalm/status/100000020"
+  },
+  {
+    "id": 21,
+    "author": "FairAI",
+    "platform": "Twitter",
+    "content": "AI’s facial recognition fails dark skin tones 30% more. Equity isn’t optional. #AIEthics",
+    "summary": "Criticizes racial bias in AI systems.",
+    "tags": ["AI", "ethics", "bias"],
+    "vibe": "critical, urgent",
+    "source_url": "https://twitter.com/FairAI/status/100000021"
+  },
+  {
+    "id": 22,
+    "author": "TechJester",
+    "platform": "Twitter",
+    "content": "AI scheduled my day: 5 mins to cry, 10 to code. Fair enough. 😅 #AIHumor",
+    "summary": "Jokes about AI’s rigid scheduling.",
+    "tags": ["AI", "humor", "techlife"],
+    "vibe": "funny, relatable",
+    "source_url": "https://twitter.com/TechJester/status/100000022"
+  },
+  {
+    "id": 23,
+    "author": "HealAI",
+    "platform": "Twitter",
+    "content": "AI’s helping PTSD patients with virtual therapy. Hope it’s as good as it sounds. #AIHealth",
+    "summary": "Explores AI’s role in mental health therapy.",
+    "tags": ["AI", "health", "mental health"],
+    "vibe": "hopeful, cautious",
+    "source_url": "https://twitter.com/HealAI/status/100000023"
+  },
+  {
+    "id": 24,
+    "author": "ZenAI",
+    "platform": "Twitter",
+    "content": "If AI meditates, does it find peace or just optimize its loops? #AISpirituality",
+    "summary": "Ponders AI’s capacity for mindfulness.",
+    "tags": ["AI", "spirituality", "philosophy"],
+    "vibe": "philosophical, calm",
+    "source_url": "https://twitter.com/ZenAI/status/100000024"
+  },
+  {
+    "id": 25,
+    "author": "WorkWise",
+    "platform": "Twitter",
+    "content": "Pomodoro saved my sanity. 25 mins work, 5 mins breathe. Try it! #Productivity",
+    "summary": "Recommends Pomodoro for focus.",
+    "tags": ["productivity", "mental health"],
+    "vibe": "practical, encouraging",
+    "source_url": "https://twitter.com/WorkWise/status/100000025"
+  },
+  {
+    "id": 26,
+    "author": "AIWatchdog",
+    "platform": "Twitter",
+    "content": "AI’s writing laws now? Without human oversight, it’s a slippery slope. #AIEthics",
+    "summary": "Warns about AI in legal governance.",
+    "tags": ["AI", "ethics", "governance"],
+    "vibe": "serious, cautionary",
+    "source_url": "https://twitter.com/AIWatchdog/status/100000026"
+  },
+  {
+    "id": 27,
+    "author": "ByteBanter",
+    "platform": "Twitter",
+    "content": "AI tried to flirt: ‘Your eyes are like… data points.’ Swing and a miss! 😆 #AIHumor",
+    "summary": "Laughs at AI’s social skills.",
+    "tags": ["AI", "humor", "tech"],
+    "vibe": "funny, playful",
+    "source_url": "https://twitter.com/ByteBanter/status/100000027"
+  },
+  {
+    "id": 28,
+    "author": "DocBot",
+    "platform": "Twitter",
+    "content": "AI’s catching cancer early, but only for those who can pay. Access matters. #AIHealth",
+    "summary": "Highlights inequity in AI healthcare access.",
+    "tags": ["AI", "health", "ethics"],
+    "vibe": "serious, critical",
+    "source_url": "https://twitter.com/DocBot/status/100000028"
+  },
+  {
+    "id": 29,
+    "author": "DivineData",
+    "platform": "Twitter",
+    "content": "AI’s generating art. Is it creation or imitation? God’s got competition. #AISpirituality",
+    "summary": "Compares AI creativity to divine acts.",
+    "tags": ["AI", "spirituality", "art"],
+    "vibe": "philosophical, witty",
+    "source_url": "https://twitter.com/DivineData/status/100000029"
+  },
+  {
+    "id": 30,
+    "author": "TechTired",
+    "platform": "Twitter",
+    "content": "Crunch time’s killing me. Code’s fine, I’m not. Check on your devs. #MentalHealth",
+    "summary": "Urges support for overworked developers.",
+    "tags": ["mental health", "tech", "burnout"],
+    "vibe": "serious, empathetic",
+    "source_url": "https://twitter.com/TechTired/status/100000030"
+  },
+  {
+    "id": 31,
+    "author": "ClearAI",
+    "platform": "Twitter",
+    "content": "Black-box AI’s deciding loans. Explainability isn’t a luxury, it’s a right. #AIEthics",
+    "summary": "Demands transparency in AI decisions.",
+    "tags": ["AI", "ethics", "transparency"],
+    "vibe": "critical, assertive",
+    "source_url": "https://twitter.com/ClearAI/status/100000031"
+  },
+  {
+    "id": 32,
+    "author": "AIChuckler",
+    "platform": "Twitter",
+    "content": "AI weather app: ‘100% chance of rain.’ I’m in a desert. Nice try! 🌵 #AIHumor",
+    "summary": "Pokes fun at AI’s prediction errors.",
+    "tags": ["AI", "humor", "tech"],
+    "vibe": "funny, sarcastic",
+    "source_url": "https://twitter.com/AIChuckler/status/100000032"
+  },
+  {
+    "id": 33,
+    "author": "MindBot",
+    "platform": "Twitter",
+    "content": "AI’s helping with anxiety, but it’s also tracking my moods. Creepy or caring? #AIHealth",
+    "summary": "Questions privacy in AI mental health tools.",
+    "tags": ["AI", "health", "mental health", "privacy"],
+    "vibe": "curious, cautious",
+    "source_url": "https://twitter.com/MindBot/status/100000033"
+  },
+  {
+    "id": 34,
+    "author": "CosmoAI",
+    "platform": "Twitter",
+    "content": "If AI solves the universe’s mysteries, will it find meaning or just math? #AISpirituality",
+    "summary": "Ponders AI’s role in existential questions.",
+    "tags": ["AI", "spirituality", "philosophy"],
+    "vibe": "philosophical, deep",
+    "source_url": "https://twitter.com/CosmoAI/status/100000034"
+  },
+  {
+    "id": 35,
+    "author": "FocusFlow",
+    "platform": "Twitter",
+    "content": "Turn off notifications. Work deep. Your brain will thank you. #Productivity",
+    "summary": "Advocates distraction-free work.",
+    "tags": ["productivity", "mental health"],
+    "vibe": "practical, calm",
+    "source_url": "https://twitter.com/FocusFlow/status/100000035"
+  },
+  {
+    "id": 36,
+    "author": "SafeAI",
+    "platform": "Twitter",
+    "content": "AI’s driving cars, but one glitch could crash lives. Safety > speed. #AIEthics",
+    "summary": "Emphasizes safety in autonomous AI systems.",
+    "tags": ["AI", "ethics", "safety"],
+    "vibe": "serious, urgent",
+    "source_url": "https://twitter.com/SafeAI/status/100000036"
+  },
+  {
+    "id": 37,
+    "author": "TechGiggle",
+    "platform": "Twitter",
+    "content": "AI tried to write a novel. 500 pages of ‘Error 404: Plot not found.’ 😆 #AIHumor",
+    "summary": "Jokes about AI’s creative limits.",
+    "tags": ["AI", "humor", "tech"],
+    "vibe": "funny, playful",
+    "source_url": "https://twitter.com/TechGiggle/status/100000037"
+  },
+  {
+    "id": 38,
+    "author": "WellBot",
+    "platform": "Twitter",
+    "content": "AI’s monitoring sleep patterns. Great, but now it knows I dream of pizza. #AIHealth",
+    "summary": "Lightly critiques privacy in AI sleep tracking.",
+    "tags": ["AI", "health", "privacy"],
+    "vibe": "humorous, questioning",
+    "source_url": "https://twitter.com/WellBot/status/100000038"
+  },
+  {
+    "id": 39,
+    "author": "SoulCircuit",
+    "platform": "Twitter",
+    "content": "AI’s composing music. Is it art or just algorithms humming? #AISpirituality",
+    "summary": "Questions the artistic value of AI music.",
+    "tags": ["AI", "spirituality", "art"],
+    "vibe": "philosophical, reflective",
+    "source_url": "https://twitter.com/SoulCircuit/status/100000039"
+  },
+  {
+    "id": 40,
+    "author": "DevDrift",
+    "platform": "Twitter",
+    "content": "Pair programming > solo crunch. Teamwork saves your soul. #TechLife",
+    "summary": "Promotes collaborative coding.",
+    "tags": ["tech", "mental health", "teamwork"],
+    "vibe": "uplifting, practical",
+    "source_url": "https://twitter.com/DevDrift/status/100000040"
+  },
+  {
+    "id": 41,
+    "author": "TruthAI",
+    "platform": "Twitter",
+    "content": "AI’s spreading fake news faster than humans. We need accountability now. #AIEthics",
+    "summary": "Addresses AI’s role in misinformation.",
+    "tags": ["AI", "ethics", "misinformation"],
+    "vibe": "critical, urgent",
+    "source_url": "https://twitter.com/TruthAI/status/100000041"
+  },
+  {
+    "id": 42,
+    "author": "CodeClown",
+    "platform": "Twitter",
+    "content": "AI recruiter: ‘You’re not a culture fit.’ Bruh, you’re a bot! 😅 #AIHumor",
+    "summary": "Mocks AI’s HR decisions.",
+    "tags": ["AI", "humor", "tech"],
+    "vibe": "funny, sarcastic",
+    "source_url": "https://twitter.com/CodeClown/status/100000042"
+  },
+  {
+    "id": 43,
+    "author": "TherapyAI",
+    "platform": "Twitter",
+    "content": "AI’s guiding meditation sessions. Feels weird, but it works. #AIHealth",
+    "summary": "Notes AI’s role in mental wellness.",
+    "tags": ["AI", "health", "mental health"],
+    "vibe": "curious, positive",
+    "source_url": "https://twitter.com/TherapyAI/status/100000043"
+  },
+  {
+    "id": 44,
+    "author": "EtherAI",
+    "platform": "Twitter",
+    "content": "If AI writes scripture, is it holy or just clever code? #AISpirituality",
+    "summary": "Questions AI’s spiritual output.",
+    "tags": ["AI", "spirituality", "ethics"],
+    "vibe": "philosophical, introspective",
+    "source_url": "https://twitter.com/EtherAI/status/100000044"
+  },
+  {
+    "id": 45,
+    "author": "WorkWell",
+    "platform": "Twitter",
+    "content": "Batch tasks. Single-task. Your focus deserves respect. #Productivity",
+    "summary": "Shares tips for better work focus.",
+    "tags": ["productivity", "mental health"],
+    "vibe": "practical, calm",
+    "source_url": "https://twitter.com/WorkWell/status/100000045"
+  },
+  {
+    "id": 46,
+    "author": "SecureAI",
+    "platform": "Twitter",
+    "content": "AI’s in charge of cybersecurity? One hack, and we’re all exposed. #AIEthics",
+    "summary": "Warns about risks in AI security systems.",
+    "tags": ["AI", "ethics", "security"],
+    "vibe": "serious, cautionary",
+    "source_url": "https://twitter.com/SecureAI/status/100000046"
+  },
+  {
+    "id": 47,
+    "author": "AIJoker",
+    "platform": "Twitter",
+    "content": "AI tried stand-up comedy. Punchline: ‘Null pointer exception.’ Tough crowd! 😆 #AIHumor",
+    "summary": "Jokes about AI’s comedic failures.",
+    "tags": ["AI", "humor", "tech"],
+    "vibe": "funny, silly",
+    "source_url": "https://twitter.com/AIJoker/status/100000047"
+  },
+  {
+    "id": 48,
+    "author": "VitalBot",
+    "platform": "Twitter",
+    "content": "AI’s predicting strokes, but only for the insured. Healthcare’s still a mess. #AIHealth",
+    "summary": "Criticizes unequal access to AI health tools.",
+    "tags": ["AI", "health", "ethics"],
+    "vibe": "critical, serious",
+    "source_url": "https://twitter.com/VitalBot/status/100000048"
+  },
+  {
+    "id": 49,
+    "author": "HolyByte",
+    "platform": "Twitter",
+    "content": "AI’s preaching love. Code or conscience? I’m intrigued. #AISpirituality",
+    "summary": "Explores AI’s moral messaging.",
+    "tags": ["AI", "spirituality", "philosophy"],
+    "vibe": "curious, philosophical",
+    "source_url": "https://twitter.com/HolyByte/status/100000049"
+  },
+  {
+    "id": 50,
+    "author": "CodeChill",
+    "platform": "Twitter",
+    "content": "Logged off for a day. Saw the sun. 10/10, recommend. #MentalHealth",
+    "summary": "Encourages tech workers to disconnect.",
+    "tags": ["mental health", "tech", "wellness"],
+    "vibe": "uplifting, calm",
+    "source_url": "https://twitter.com/CodeChill/status/100000050"
+  },
+  {
+    "id": 51,
+    "author": "OpenAIAdvocate",
+    "platform": "Twitter",
+    "content": "AI’s open-source future hinges on transparency. No more walled gardens! #AIEthics",
+    "summary": "Pushes for open AI development.",
+    "tags": ["AI", "ethics", "transparency"],
+    "vibe": "assertive, hopeful",
+    "source_url": "https://twitter.com/OpenAIAdvocate/status/100000051"
+  },
+  {
+    "id": 52,
+    "author": "TechTeaser",
+    "platform": "Twitter",
+    "content": "AI fitness coach: ‘Do 10 push-ups.’ Me: *eats chips* AI: ‘…I give up.’ 😅 #AIHumor",
+    "summary": "Jokes about AI’s coaching struggles.",
+    "tags": ["AI", "humor", "health"],
+    "vibe": "funny, relatable",
+    "source_url": "https://twitter.com/TechTeaser/status/100000052"
+  },
+  {
+    "id": 53,
+    "author": "HealthSync",
+    "platform": "Twitter",
+    "content": "AI’s cutting ER wait times. Amazing, but let’s not forget the human touch. #AIHealth",
+    "summary": "Praises AI in healthcare but values human care.",
+    "tags": ["AI", "health", "ethics"],
+    "vibe": "positive, balanced",
+    "source_url": "https://twitter.com/HealthSync/status/100000053"
+  },
+  {
+    "id": 54,
+    "author": "MysticAI",
+    "platform": "Twitter",
+    "content": "AI’s analyzing ancient texts. Will it find God or just grammar? #AISpirituality",
+    "summary": "Questions AI’s ability to interpret sacred texts.",
+    "tags": ["AI", "spirituality", "philosophy"],
+    "vibe": "philosophical, curious",
+    "source_url": "https://twitter.com/MysticAI/status/100000054"
+  },
+  {
+    "id": 55,
+    "author": "TaskTamer",
+    "platform": "Twitter",
+    "content": "Write one task. Do it. Repeat. Stop multitasking, it’s a trap. #Productivity",
+    "summary": "Advises against multitasking for better focus.",
+    "tags": ["productivity", "mental health"],
+    "vibe": "practical, direct",
+    "source_url": "https://twitter.com/TaskTamer/status/100000055"
+  },
+  {
+    "id": 56,
+    "author": "AIGuard",
+    "platform": "Twitter",
+    "content": "AI’s policing X posts. One wrong flag, and you’re shadowbanned. Fairness where? #AIEthics",
+    "summary": "Criticizes AI’s role in social media policing.",
+    "tags": ["AI", "ethics", "moderation"],
+    "vibe": "frustrated, critical",
+    "source_url": "https://twitter.com/AIGuard/status/100000056"
+  },
+  {
+    "id": 57,
+    "author": "BotBuddy",
+    "platform": "Twitter",
+    "content": "AI tried to plan my vacation: ‘Visit the cloud.’ Dude, I meant beaches! 😆 #AIHumor",
+    "summary": "Laughs at AI’s literal planning.",
+    "tags": ["AI", "humor", "tech"],
+    "vibe": "funny, silly",
+    "source_url": "https://twitter.com/BotBuddy/status/100000057"
+  },
+  {
+    "id": 58,
+    "author": "CareAI",
+    "platform": "Twitter",
+    "content": "AI’s helping dementia patients remember. Beautiful, but let’s keep it ethical. #AIHealth",
+    "summary": "Praises AI’s role in memory care with caution.",
+    "tags": ["AI", "health", "ethics"],
+    "vibe": "hopeful, serious",
+    "source_url": "https://twitter.com/CareAI/status/100000058"
+  },
+  {
+    "id": 59,
+    "author": "FaithBit",
+    "platform": "Twitter",
+    "content": "AI’s teaching ethics. Can it learn compassion, or is it just rules? #AISpirituality",
+    "summary": "Questions AI’s ability to embody compassion.",
+    "tags": ["AI", "spirituality", "ethics"],
+    "vibe": "philosophical, reflective",
+    "source_url": "https://twitter.com/FaithBit/status/100000059"
+  },
+  {
+    "id": 60,
+    "author": "DevDawn",
+    "platform": "Twitter",
+    "content": "Code’s eternal, but you’re not. Take a walk, breathe, live. #MentalHealth",
+    "summary": "Encourages work-life balance for coders.",
+    "tags": ["mental health", "tech", "wellness"],
+    "vibe": "calm, inspiring",
+    "source_url": "https://twitter.com/DevDawn/status/100000060"
+  }
+]

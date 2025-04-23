@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ThreadSeeker</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 0.3rem;
+      animation: float 2s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-9px); }
+      100% { transform: translateY(0); }
+    }
+
+    .tagline {
+      text-align: center;
+      color: #666;
+      font-size: 1.1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    form {
+      margin-bottom: 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      min-width: 300px;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      background: #fff;
+      transition: box-shadow 0.2s;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    }
+
+    button {
+      padding: 0.8rem 1.8rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.2s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+      transform: translateY(-1px);
+    }
+
+    .card {
+      background: white;
+      padding: 1.7rem;
+      margin-top: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card .why {
+      font-style: italic;
+      color: #888;
+      margin-top: 0.7rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .tags {
+      color: #555;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .results-heading {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      color: #2c3e50;
+    }
+
+    .no-results {
+      text-align: center;
+      color: #999;
+      font-size: 1.1rem;
+      margin-top: 2rem;
+    }
+
+    /* Suggestions dropdown */
+    #suggestions li {
+      cursor: pointer;
+      padding: 0.4rem 0;
+      transition: background 0.2s;
+    }
+
+    #suggestions li:hover {
+      background: #f0f0f0;
+    }
+
+    /* Recent search buttons - fixed styling */
+    #recentQueries button {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      background: #007bff;
+      color: white;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    #recentQueries button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>AI ThreadSeeker</h1>
+  <div class="tagline">Discover deep, delightful, and diverse conversations from across the web. Just type your curiosity ✨</div>
+
+  <form method="get" onsubmit="saveQuery()">
+    <input id="queryInput" type="text" name="q" value="{{ query }}" placeholder="e.g. Deep convos about AI ethics with humor" autocomplete="off" onfocus="showSuggestions()" onblur="hideSuggestions()" />
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- 🌟 Suggestions dropdown -->
+  <div id="suggestions" style="display:none; background:#fff; border:1px solid #ccc; border-radius:8px; padding:0.7rem; position:absolute; max-width:500px; z-index:10;">
+    <strong>💡 Try one of these:</strong>
+    <ul style="list-style:none; padding-left:0; margin-top:0.5rem;">
+      <li onclick="fillQuery('AI for mental health')">🧠 AI for mental health</li>
+      <li onclick="fillQuery('Startups using AI for good')">🚀 Startups using AI for good</li>
+      <li onclick="fillQuery('Funny takes on ChatGPT')">😂 Funny takes on ChatGPT</li>
+      <li onclick="fillQuery('Best Twitter threads on productivity')">⏳ Best Twitter threads on productivity</li>
+    </ul>
+  </div>
+
+  <!-- 🕘 Recently searched -->
+  <div id="recent" style="margin-top:2rem;">
+    <strong>🕘 Recently Searched:</strong>
+    <div id="recentQueries" style="margin-top: 0.5rem;"></div>
+  </div>
+
+  {% if results %}
+    <div class="results-heading">Top Results for: <em>"{{ query }}"</em></div>
+    {% for r in results %}
+      <div class="card">
+        <p><strong>📝 Summary:</strong> {{ r.summary }}</p>
+        <p><strong>🧵 Content:</strong> {{ r.content }}</p>
+        <div class="why">🔍 Why this: {{ r.why_this }}</div>
+        <div class="tags">
+          <strong>🏷️ Tags:</strong> {{ r.tags | join(', ') }} |
+          <strong>💡 Vibe:</strong> {{ r.vibe }}
+        </div>
+        <div style="margin-top: 0.7rem;">
+          <a href="{{ r.source_url }}" target="_blank">🔗 Read Full Thread</a>
+        </div>
+      </div>
+    {% endfor %}
+  {% elif query %}
+    <p class="no-results">😕 No results found for <em>{{ query }}</em>. Try a different query like “AI and creativity with fun tone”</p>
+  {% endif %}
+
+  <!-- 📜 Script Section -->
+  <script>
+    // Save query to localStorage
+    function saveQuery() {
+      const q = document.getElementById("queryInput").value.trim();
+      if (!q) return;
+      let recent = JSON.parse(localStorage.getItem("recentQueries") || "[]");
+      recent = [q, ...recent.filter(item => item !== q)].slice(0, 5);
+      localStorage.setItem("recentQueries", JSON.stringify(recent));
+    }
+
+    // Load recent queries on page load
+    window.onload = function () {
+      const recent = JSON.parse(localStorage.getItem("recentQueries") || "[]");
+      const container = document.getElementById("recentQueries");
+      container.innerHTML = "";
+      if (recent.length === 0) {
+        container.innerHTML = "<em>No recent searches yet.</em>";
+        return;
+      }
+      recent.forEach(q => {
+        const btn = document.createElement("button");
+        btn.textContent = q;
+        btn.onclick = () => {
+          document.getElementById("queryInput").value = q;
+        };
+        container.appendChild(btn);
+      });
+    };
+
+    // Show/hide suggestions
+    function showSuggestions() {
+      document.getElementById("suggestions").style.display = "block";
+    }
+    function hideSuggestions() {
+      setTimeout(() => {
+        document.getElementById("suggestions").style.display = "none";
+      }, 200); // Give user time to click
+    }
+
+    function fillQuery(text) {
+      document.getElementById("queryInput").value = text;
+      document.getElementById("suggestions").style.display = "none";
+    }
+  </script>
+</body>
+</html>
